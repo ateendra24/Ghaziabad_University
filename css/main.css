@@ -49,7 +49,7 @@ section {
     justify-content: center;
     text-align: center;
     max-width: 1500px;
-    max-height: 1000px;
+    max-height: 100%;
 }
 
 /* MENU  */
@@ -706,7 +706,8 @@ input[type=text] {
         height: 120px;
     }
 
-    .Courses {
+    .Courses,.About{
+        height: 100%;
         max-height: 100%;
     }
 
@@ -739,15 +740,6 @@ input[type=text] {
     .gallery_heading {
         font-size: 35px;
     }
-
-    .placements_heading {
-        margin-top: 100px;
-    }
-
-    .placement_content {
-        margin-top: 300px;
-    }
-
     .courses_heading {
         padding-top: 20px;
     }
@@ -786,7 +778,7 @@ input[type=text] {
         max-width: 100%;
     }
 
-    .Gallery {
+    .Gallery{
         max-height: 100%;
     }
 
