@@ -49,7 +49,8 @@ section {
     justify-content: center;
     text-align: center;
     max-width: 1700px;
-    max-height: 100%;
+    height: 100vh;
+    max-height: 1000px;
 }
 
 /* MENU  */
@@ -61,8 +62,7 @@ section {
     transition: all 0.3s ease;
     color: black;
     z-index: 999;
-    max-width: 1500px;
-    max-height: 1000px;
+    max-width: 1700px;
 }
 
 .navbar .menu li {
@@ -152,7 +152,7 @@ section {
     background-size: cover;
     filter: blur(1.5px);
     z-index: -1;
-    max-width: 1500px;
+    max-width: 1700px;
     max-height: 1000px;
 }
 
@@ -691,7 +691,7 @@ input[type=text] {
 
 @media (max-width:620px) {
     .about_content {
-        padding: 0px 5px 20px 5px;
+        padding: 40px 5px 40px 5px;
         margin-top: 10px;
         font-size: 15px;
     }
@@ -706,7 +706,7 @@ input[type=text] {
         height: 120px;
     }
 
-    .Courses,.About{
+    .Courses,.About {
         height: 100%;
         max-height: 100%;
     }
@@ -740,6 +740,7 @@ input[type=text] {
     .gallery_heading {
         font-size: 35px;
     }
+
     .courses_heading {
         padding-top: 20px;
     }
@@ -754,7 +755,7 @@ input[type=text] {
     }
 
     .placement_img {
-        margin-top: 480px;
+        margin-top: 380px;
     }
 
     .col {
@@ -778,7 +779,7 @@ input[type=text] {
         max-width: 100%;
     }
 
-    .Gallery{
+    .Gallery {
         max-height: 100%;
     }
 
@@ -786,4 +787,4 @@ input[type=text] {
         margin-top: 230px;
     }
 
-}
+} 
